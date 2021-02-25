@@ -44,8 +44,7 @@
     "wpackagist-plugin/login-lockdown": "~1.8",
     "wpackagist-plugin/user-switching": "~1.5",
     "wpackagist-plugin/gumlet": ">=1.1-stable",
-    "wp-premium/advanced-custom-fields-pro": "master",
-    "splitchennai/sc-admin-lockdown": "dev-master"
+    "wp-premium/advanced-custom-fields-pro": "master"
   },
   "require-dev": {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
