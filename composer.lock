@@ -4,183 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7e3dee633cc3482e00af787b3a4b878",
+    "content-hash": "521a316a5f12507b122eb408c8f61830",
     "packages": [
-        {
-            "name": "composer/installers",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "98b34f8ab3558bee5caa7c07efbab3f5bd7663ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/98b34f8ab3558bee5caa7c07efbab3f5bd7663ab",
-                "reference": "98b34f8ab3558bee5caa7c07efbab3f5bd7663ab",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0"
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.6.* || ^2.0",
-                "composer/semver": "^1 || ^3",
-                "phpstan/phpstan": "^0.12.55",
-                "phpstan/phpstan-phpunit": "^0.12.16",
-                "symfony/phpunit-bridge": "^4.2 || ^5",
-                "symfony/process": "^2.3"
-            },
-            "default-branch": true,
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Composer\\Installers\\Plugin",
-                "branch-alias": {
-                    "dev-main": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Composer\\Installers\\": "src/Composer/Installers"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama"
-                }
-            ],
-            "description": "A multi-framework Composer library installer",
-            "homepage": "https://composer.github.io/installers/",
-            "keywords": [
-                "Craft",
-                "Dolibarr",
-                "Eliasis",
-                "Hurad",
-                "ImageCMS",
-                "Kanboard",
-                "Lan Management System",
-                "MODX Evo",
-                "MantisBT",
-                "Mautic",
-                "Maya",
-                "OXID",
-                "Plentymarkets",
-                "Porto",
-                "RadPHP",
-                "SMF",
-                "Starbug",
-                "Thelia",
-                "Whmcs",
-                "WolfCMS",
-                "agl",
-                "aimeos",
-                "annotatecms",
-                "attogram",
-                "bitrix",
-                "cakephp",
-                "chef",
-                "cockpit",
-                "codeigniter",
-                "concrete5",
-                "croogo",
-                "dokuwiki",
-                "drupal",
-                "eZ Platform",
-                "elgg",
-                "expressionengine",
-                "fuelphp",
-                "grav",
-                "installer",
-                "itop",
-                "joomla",
-                "known",
-                "kohana",
-                "laravel",
-                "lavalite",
-                "lithium",
-                "magento",
-                "majima",
-                "mako",
-                "mediawiki",
-                "modulework",
-                "modx",
-                "moodle",
-                "osclass",
-                "phpbb",
-                "piwik",
-                "ppi",
-                "processwire",
-                "puppet",
-                "pxcms",
-                "reindex",
-                "roundcube",
-                "shopware",
-                "silverstripe",
-                "sydes",
-                "sylius",
-                "symfony",
-                "tastyigniter",
-                "typo3",
-                "wordpress",
-                "yawik",
-                "zend",
-                "zikula"
-            ],
-            "support": {
-                "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/main"
-            },
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/composer",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-02-02T15:00:11+00:00"
-        },
-        {
-            "name": "splitchennai/sc-admin-lockdown",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:splitchennai/sc-admin-lockdown.git",
-                "reference": "25aca2ef51b69a601186a36560c2d4ff71420d87"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
-                "phpcompatibility/phpcompatibility-wp": "dev-master",
-                "squizlabs/php_codesniffer": "^3.0@dev",
-                "wp-coding-standards/wpcs": "dev-master"
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "SPLIT Chennai",
-                    "email": "hello@splitchennai.com"
-                }
-            ],
-            "description": "A simple WP plugin to lock down the admin panel from all users.",
-            "time": "2020-10-09T20:53:34+00:00"
-        },
         {
             "name": "wp-premium/advanced-custom-fields-pro",
             "version": "master",
@@ -190,96 +15,6 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpackagist-plugin/autodescription",
-            "version": "4.1.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.1.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.1.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/autodescription/"
-        },
-        {
-            "name": "wpackagist-plugin/gumlet",
-            "version": "1.1.53",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/gumlet/",
-                "reference": "tags/1.1.53"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gumlet.1.1.53.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/gumlet/"
-        },
-        {
-            "name": "wpackagist-plugin/login-lockdown",
-            "version": "v1.8.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/login-lockdown/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/login-lockdown.zip?timestamp=1612440805"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/login-lockdown/"
-        },
-        {
-            "name": "wpackagist-plugin/user-switching",
-            "version": "1.5.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.5.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.6.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/user-switching/"
-        },
-        {
-            "name": "wpackagist-plugin/white-label-cms",
-            "version": "2.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/white-label-cms/",
-                "reference": "tags/2.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/white-label-cms.2.2.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/white-label-cms/"
         }
     ],
     "packages-dev": [
@@ -491,12 +226,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "ed53de63d7f2d636e08e5e8a7ba1c2df73cb44d4"
+                "reference": "9225b424ff48479d72983f39dc372dd0d2808235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/ed53de63d7f2d636e08e5e8a7ba1c2df73cb44d4",
-                "reference": "ed53de63d7f2d636e08e5e8a7ba1c2df73cb44d4",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/9225b424ff48479d72983f39dc372dd0d2808235",
+                "reference": "9225b424ff48479d72983f39dc372dd0d2808235",
                 "shasum": ""
             },
             "require": {
@@ -533,7 +268,7 @@
                 "issues": "https://github.com/mck89/peast/issues",
                 "source": "https://github.com/mck89/peast/tree/master"
             },
-            "time": "2021-01-08T18:12:24+00:00"
+            "time": "2021-02-19T20:22:01+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -649,28 +384,28 @@
         },
         {
             "name": "phpcompatibility/phpcompatibility-paragonie",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie.git",
-                "reference": "b862bc32f7e860d0b164b199bd995e690b4b191c"
+                "reference": "ddabec839cc003651f2ce695c938686d1086cf43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityParagonie/zipball/b862bc32f7e860d0b164b199bd995e690b4b191c",
-                "reference": "b862bc32f7e860d0b164b199bd995e690b4b191c",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityParagonie/zipball/ddabec839cc003651f2ce695c938686d1086cf43",
+                "reference": "ddabec839cc003651f2ce695c938686d1086cf43",
                 "shasum": ""
             },
             "require": {
                 "phpcompatibility/php-compatibility": "^9.0"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
                 "paragonie/random_compat": "dev-master",
                 "paragonie/sodium_compat": "dev-master"
             },
             "suggest": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
                 "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
             },
             "type": "phpcodesniffer-standard",
@@ -701,7 +436,7 @@
                 "issues": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie/issues",
                 "source": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie"
             },
-            "time": "2019-11-04T15:17:54+00:00"
+            "time": "2021-02-15T10:24:51+00:00"
         },
         {
             "name": "phpcompatibility/phpcompatibility-wp",
@@ -709,12 +444,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCompatibility/PHPCompatibilityWP.git",
-                "reference": "494189c1aec4b53ef1bfd6b48b2a31a972ea487e"
+                "reference": "b7dc0cd7a8f767ccac5e7637550ea1c50a67b09e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityWP/zipball/494189c1aec4b53ef1bfd6b48b2a31a972ea487e",
-                "reference": "494189c1aec4b53ef1bfd6b48b2a31a972ea487e",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityWP/zipball/b7dc0cd7a8f767ccac5e7637550ea1c50a67b09e",
+                "reference": "b7dc0cd7a8f767ccac5e7637550ea1c50a67b09e",
                 "shasum": ""
             },
             "require": {
@@ -756,7 +491,7 @@
                 "issues": "https://github.com/PHPCompatibility/PHPCompatibilityWP/issues",
                 "source": "https://github.com/PHPCompatibility/PHPCompatibilityWP"
             },
-            "time": "2020-12-17T20:08:18+00:00"
+            "time": "2021-02-15T12:58:46+00:00"
         },
         {
             "name": "rmccue/requests",
@@ -817,12 +552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "2da6904087d28af217b430a2cb4d8fcca4b9f5be"
+                "reference": "1106d65547e581a5184a9293486d9e6d81595462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/2da6904087d28af217b430a2cb4d8fcca4b9f5be",
-                "reference": "2da6904087d28af217b430a2cb4d8fcca4b9f5be",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1106d65547e581a5184a9293486d9e6d81595462",
+                "reference": "1106d65547e581a5184a9293486d9e6d81595462",
                 "shasum": ""
             },
             "require": {
@@ -866,7 +601,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2021-02-01T06:06:08+00:00"
+            "time": "2021-02-24T21:40:47+00:00"
         },
         {
             "name": "symfony/finder",
@@ -874,12 +609,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "4adc8d172d602008c204c2e16956f99257248e03"
+                "reference": "0d639a0943822626290d169965804f79400e6a04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/4adc8d172d602008c204c2e16956f99257248e03",
-                "reference": "4adc8d172d602008c204c2e16956f99257248e03",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/0d639a0943822626290d169965804f79400e6a04",
+                "reference": "0d639a0943822626290d169965804f79400e6a04",
                 "shasum": ""
             },
             "require": {
@@ -912,7 +647,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v5.2.3"
+                "source": "https://github.com/symfony/finder/tree/5.x"
             },
             "funding": [
                 {
@@ -928,7 +663,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-28T22:06:19+00:00"
+            "time": "2021-02-15T18:55:04+00:00"
         },
         {
             "name": "wp-cli/i18n-command",
@@ -1223,9 +958,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "splitchennai/sc-admin-lockdown": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
